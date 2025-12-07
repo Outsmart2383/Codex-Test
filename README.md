@@ -13,4 +13,4 @@ This repository contains the **Mortgage Rate Comparison** WordPress plugin. The 
 After activation, use the `[mortgage_rate_compare]` shortcode or add the **Mortgage Rate Compare** Elementor widget to your pages.
 
 ## Development
-All plugin source files live in `mortgage-rate-comparison/`. Update files there before creating the ZIP package to avoid the "No valid plugins were found" installation error caused by zipping only the inner contents.
+All plugin source files live in `mortgage-rate-comparison/`. Update files there before creating the ZIP package to avoid the "No valid plugins were found" installation error caused by zipping only the inner contents. Verify your ZIP contains the full `mortgage-rate-comparison/` folder (with `mortgage-rate-compare.php` inside) at its root before uploading to WordPress.

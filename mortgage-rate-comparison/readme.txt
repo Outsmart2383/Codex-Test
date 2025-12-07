@@ -4,7 +4,7 @@ Tags: mortgage, calculator, rates, elementor, shortcode
 Requires at least: 6.0
 Tested up to: 6.5
 Requires PHP: 7.4
-Stable tag: 1.2.2
+Stable tag: 1.2.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -25,6 +25,9 @@ Use the `[mortgage_rate_compare]` shortcode or the **Mortgage Rate Compare** Ele
 Yes. The plugin includes an Elementor widget with style controls for the container, labels, inputs, buttons, and results. You can also override the provided CSS in your theme or Elementor if needed.
 
 == Changelog ==
+= 1.2.3 =
+* Reinforce the expected ZIP layout so WordPress detects the plugin (keep the `mortgage-rate-comparison/` folder with `mortgage-rate-compare.php` at the root of the archive).
+
 = 1.2.2 =
 * Clarify that the ZIP must include the `mortgage-rate-comparison` folder to avoid installation errors.
 
