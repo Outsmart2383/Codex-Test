@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Mortgage Rate Comparison
  * Description: Compare current mortgage rates and total costs over a deal period against a new rate to see potential savings.
- * Version: 1.2.1
+ * Version: 1.2.2
  * Author: Codex Test
  * Text Domain: mortgage-rate-compare
  * Requires at least: 6.0

@@ -1,6 +1,6 @@
 # Mortgage Rate Comparison Plugin
 
-This repository contains the **Mortgage Rate Comparison** WordPress plugin. The plugin renders a shortcode and Elementor widget for comparing current and new mortgage deals, including monthly payments, total costs, and potential savings.
+This repository contains the **Mortgage Rate Comparison** WordPress plugin. The plugin renders a shortcode and Elementor widget for comparing current and new mortgage deals, including monthly payments, total costs, and potential savings. All distributable files live inside the `mortgage-rate-comparison/` folder so the ZIP installs cleanly in WordPress.
 
 ## Installation via WordPress ZIP upload
 1. From the repository root, build a ZIP that contains the `mortgage-rate-comparison` plugin folder:
@@ -13,4 +13,4 @@ This repository contains the **Mortgage Rate Comparison** WordPress plugin. The 
 After activation, use the `[mortgage_rate_compare]` shortcode or add the **Mortgage Rate Compare** Elementor widget to your pages.
 
 ## Development
-All plugin source files live in `mortgage-rate-comparison/`. Update files there before creating the ZIP package.
+All plugin source files live in `mortgage-rate-comparison/`. Update files there before creating the ZIP package to avoid the "No valid plugins were found" installation error caused by zipping only the inner contents.
